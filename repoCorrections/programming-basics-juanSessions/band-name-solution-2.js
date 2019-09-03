@@ -29,28 +29,26 @@ function generateBandName(clothingColor,lastFoodEaten) {
   return `${clothingColor} ${lastFoodEaten}`;
    }
 function capitalizeFood(lastFoodEaten) {
-  lastFoodEaten = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1);
+  lastFoodEaten = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1).toLowerCase();
   return lastFoodEaten;
 }   
 function capitalizeColor(clothingColor) {
-  clothingColor = clothingColor[0].toUpperCase() + clothingColor.substring(1);
+  clothingColor = clothingColor[0].toUpperCase() + clothingColor.substring(1).toLowerCase();
   return clothingColor;
 }
-console.log(generateBandName("clothingColor", "lastFoodEaten"));
+console.log(generateBandName("strapon", "CHICKEN"));
 
 
 
 
 
-function capitalizeInitial(crimson) {
-  crimson = crimson[0].toUpperCase() + crimson.substring(1);
-  return crimson;
-}   
-function capitalizeInitial(kebab) {
-  kebab = kebab[0].toUpperCase() + kebab.substring(1);
-  return kebab;
-}
-console.log(capitalizeInitial("crimson", "kebab"));
+function generateBandName(clothingColor,lastFoodEaten) {
+  let Color = clothingColor[0].toUpperCase() + clothingColor.substring(1).toLowerCase();
+  let Food = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1).toLowerCase();
+  return `${Color} ${Food}`;
+   }
+
+console.log(generateBandName("crimson", "KEBAB"));
 
 // This one above is not finished
 
