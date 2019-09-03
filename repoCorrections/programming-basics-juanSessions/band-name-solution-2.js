@@ -50,7 +50,6 @@ function generateBandName(clothingColor,lastFoodEaten) {
 
 console.log(generateBandName("crimson", "KEBAB"));
 
-// This one above is not finished
 
 
 
