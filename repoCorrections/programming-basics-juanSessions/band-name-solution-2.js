@@ -68,6 +68,42 @@ function capitalizeInitial(rawString) {
   // Test yourself: To where does this value get returned?
   return rawString[0].toUpperCase() + rawString.substr(1).toLowerCase();
 }
+<<<<<<< HEAD
+=======
+console.log(nameSelector());
+
+//Juan 2nd part solutions
+
+function generateBandName(clothingColor,lastFoodEaten) {
+  clothingColor = capitalizeColor(clothingColor);
+  lastFoodEaten = capitalizeFood(lastFoodEaten);
+  return `${clothingColor} ${lastFoodEaten}`;
+   }
+function capitalizeFood(lastFoodEaten) {
+  lastFoodEaten = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1).toLowerCase();
+  return lastFoodEaten;
+}   
+function capitalizeColor(clothingColor) {
+  clothingColor = clothingColor[0].toUpperCase() + clothingColor.substring(1).toLowerCase();
+  return clothingColor;
+}
+console.log(generateBandName("strapon", "CHICKEN"));
+
+
+
+
+
+function generateBandName(clothingColor,lastFoodEaten) {
+  let Color = clothingColor[0].toUpperCase() + clothingColor.substring(1).toLowerCase();
+  let Food = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1).toLowerCase();
+  return `${Color} ${Food}`;
+   }
+
+console.log(generateBandName("crimson", "KEBAB"));
+
+
+
+
 
 /**
  * Make a boring color delicious!
@@ -108,3 +144,5 @@ function makeTasty(color) {
 
   return tastyColor;
 }
+console.log(makeTasty('Blue'));
+console.log(makeTasty('Purple'));
