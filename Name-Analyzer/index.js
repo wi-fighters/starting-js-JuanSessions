@@ -1,3 +1,4 @@
+
 const name = "Winston Churchill" 
 const totalLetters = name.length
 const spaceCount = (name.split(" ").length - 1);

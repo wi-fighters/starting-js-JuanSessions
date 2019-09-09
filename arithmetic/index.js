@@ -23,9 +23,9 @@ const tip3 = 35.92
 let perc1 = 10/100
 let perc2 = 15/100
 let perc3 = 20/100
-console.log(tip1+perc1)
-console.log(tip2+perc2)
-console.log(tip3+perc3)
+console.log(tip1 + (tip1*perc1))
+console.log(tip2 + (tip2*perc2))
+console.log(tip3 + (tip3*perc3))
 //6
 let side = 4.74
 console.log(`The perimeter of the square is ${side*4}cm`)
@@ -36,3 +36,13 @@ console.log(`The perimeter of the triangle is ${sidea+sideb+sidec}cm`)
 let squareSide = 5
 let squareArea = squareSide * squareSide
 console.log(`The area of the square is ${squareArea}cm`)
+
+const sideCube = 9;
+cons volCube = sideCube * sideCube ;
+console.log(`Volume of a cube = ${volCube}cm³`);
+
+
+Math.max(5, 10);
+
+
+

@@ -1,20 +1,36 @@
-
-console.log(Math.min(3,4, 54, 65, 7, 9, 1, 0, -1, -1.5));
-console.log(Math.max(1, 24, 45, 5,65, 76, 8));
-
-
-console.log(Math.ceil(3321.32321));
-console.log(Math.ceil(326.76));
-console.log(Math.ceil(76788.7));
-console.log(Math.ceil(-9.78));
-console.log(Math.ceil(43.342));
+//1. Declare a variable called name.Assign a string value.Print to screen. 
+​
+//2. Print to screen that name with a "Schm" in front of it. 
+​
+//3. What value does name have now ? Comment your answer and then print name to screen to test. 
+​
+//4. Assign another string value to name.Print to screen.Comment why name has now had two different values.
+​
+//5. Declare a variable called coffee.Assign it a numeric value. 
+​
+//6. Print to screen a string that tells us x regularly drinks y cups of coffee per day. 
+​
+//7. Declare a variable called daysBeforeExam.Assign it a numeric value. 
+​
+//8. Print to screen a string that tells us x drinks y cups of coffee with n days before exam.
+​
+//9. Making use of`+=` and`-=`, print to screen a string that has x drinking one more cup of coffee, with (n - 1) less days before exam. 
  
-console.log(Math.floor(3321.32321));
-console.log(Math.floor(326.76));
-console.log(Math.floor(76788.7));
-console.log(Math.floor(-9.78));
-console.log(Math.floor(28.329));
+//10. What value do coffee and daysBeforeExam currently have ? Comment your answer, then print to screen the variables to test. 
+​
+//11. Review variable values throughout code.
 
-console.log(Math.floor(Math.random() * 6 + 1)); 
+//## concat()
 
+//    ** Another way to accumulate or "concatenate" strings.**
+//
+  //      12. Declare a variable called schmozzler.Assign it a string value of "Schm". 
+​
+//13. Using the concat() function, print to screen the name variable linked to schmozzler. 
+​
+//14. What value does name have now ? Comment your answer and then print name to screen to test. 
 
+const name = "variable"
+console.log("Schm"+ name);
+
+//cost coffe = 12

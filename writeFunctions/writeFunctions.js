@@ -4,7 +4,7 @@ function createBand(clothing, lastFoodEaten) {
 console.log(createBand("shirt", "peach"));
 
 function newBand(fruit, car) {
-  const fruitUpperCase = fruit[0].toUpperCase() + fruit.substring(1);
+  const fruitUpperCase = fruit[0].toUpperCase() + fruit.substring(1);rm 
   const carUppercase = car[0].toUpperCase() + car.substring(1);
   return `name of our new rock band is ${fruitUpperCase} ${carUppercase}`;
 }

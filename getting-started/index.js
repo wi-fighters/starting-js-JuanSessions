@@ -51,5 +51,7 @@ console.log(`${welcome}, ${anothername}'s friend
  I want to say "Hi"!`) 
 
 //length property
-console.log(anothername[4]);
+//console.log(anothername[4]);
+//console.log(name.length);
+
 
