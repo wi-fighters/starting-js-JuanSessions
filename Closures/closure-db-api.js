@@ -68,29 +68,7 @@
 
 // Your goal is to refactor init so that you can't ;)
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// const init = () => {
-//   const db = [];
-//   const create = dbToArray => {
-//     db.push(dbToArray);
-//     return db.length;
-//   };
-//   const read = () => {
-//     const dbCopy = [...db];
-//     return dbCopy;
-//   };
-//   const api = [create, read];
-//   return api;
-// };
-// const createInDb = init();
-// createInDb[0]("me");
-// createInDb[0]("you");
-// createInDb[0]("they");
-// createInDb[0]("us");
-// console.log(createInDb[0]("huhjuinj")); // [0]=create in const api. this adds to the list (5 at this point), tells how many objects u have, but keeps the elements private
-// console.log(createInDb[1]()); // [1]=read in const api. this reads the content
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //last update
 const init = () => {
   const db = [];
